@@ -1,0 +1,52 @@
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+#title1
+{
+    /* color: #FFF; */
+    font-size: 36px;
+    text-align: center;
+}
+.card-img-overlay
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.btn-wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download
+{
+    transition: all 0.2s;
+    width: 30%;
+    text-align: center;
+    background-color: transparent;
+    border: solid;
+    border-color: black;
+    border-radius: 8px;
+}
+.download:hover
+{
+    transition: all 0.2s;
+    background-color: #FAA41A;
+    color: white;
+}
+.card
+{
+    border-radius: 20px !important;
+    border: black !important;
+    border-style: solid !important;
+    margin: 2% !important;
+}
+img
+{
+    border-radius: 20px;
+    z-index: -1;
+}
