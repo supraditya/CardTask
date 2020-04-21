@@ -40,10 +40,12 @@
 }
 .card
 {
-    border-radius: 20px !important;
+    border-radius: 10px !important;
     border: black !important;
     border-style: solid !important;
     margin: 2% !important;
+    width: 500px !important;
+    height: 500px !important;
 }
 img
 {

@@ -16,6 +16,8 @@ function loadAPI()
             // JSON object fetched in var data
             var title1=document.getElementById('title1');
             title1.innerHTML=result.author;
+            var url=result.url;
+            console.log(url);
         }
     });
     
