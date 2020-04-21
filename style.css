@@ -15,11 +15,12 @@
     .card-title
     {
         font-size: 0.8em !important;
+        text-shadow: 2px 2px 4px #000000 !important;
     }
 }
 body
 {
-    background-color: #e49e82 !important;
+    background-color: #ecb699 !important;
 }
 .container
 {
@@ -29,7 +30,7 @@ body
 } 
 .card-title
 {
-    color: #FFF;
+    color: #f1e8df;
     font-family: Montserrat !important;
     font-size: 20px !important;
     /* text-align: center !important; */
