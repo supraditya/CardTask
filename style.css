@@ -1,14 +1,18 @@
+*.focus
+{
+    outline: 0;
+}
 .container
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 } 
-#title1
+.card-title
 {
     /* color: #FFF; */
-    font-size: 36px;
-    text-align: center;
+    font-size: 20px !important;
+    /* text-align: center !important; */
 }
 .card-img-overlay
 {
@@ -25,18 +29,21 @@
 .download
 {
     transition: all 0.2s;
+    color: black;
     width: 30%;
     text-align: center;
     background-color: transparent;
     border: solid;
     border-color: black;
     border-radius: 8px;
+    text-decoration: none;
 }
 .download:hover
 {
     transition: all 0.2s;
     background-color: #FAA41A;
     color: white;
+    text-decoration: none;
 }
 .card
 {
@@ -50,5 +57,4 @@
 img
 {
     border-radius: 20px;
-    z-index: -1;
 }
