@@ -42,7 +42,10 @@ function loadAPI()
                      window.open( $(this).attr("href") );
                  }
              );
-             $("#img1").attr("src",url1);
+             $("#img1").attr("src",url2);
+             $("#img2").attr("src",url2);
+             $("#img3").attr("src",url2);
+             $("#img4").attr("src",url2);
 
         }
     });

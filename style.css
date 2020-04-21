@@ -2,6 +2,25 @@
 {
     outline: 0;
 }
+@media only screen and (max-width: 350px) 
+{
+    .download
+    {
+        width: 20%;
+    }
+    a
+    {
+        font-size: 0.8em;
+    }
+    .card-title
+    {
+        font-size: 0.8em !important;
+    }
+}
+body
+{
+    color: black;
+}
 .container
 {
     display: flex;
@@ -10,7 +29,7 @@
 } 
 .card-title
 {
-    /* color: #FFF; */
+    color: #FFF;
     font-size: 20px !important;
     /* text-align: center !important; */
 }
@@ -29,32 +48,34 @@
 .download
 {
     transition: all 0.2s;
-    color: black;
+    color: #FFF;
     width: 30%;
     text-align: center;
     background-color: transparent;
     border: solid;
-    border-color: black;
+    border-color: #FFF;
     border-radius: 8px;
     text-decoration: none;
 }
 .download:hover
 {
     transition: all 0.2s;
-    background-color: #FAA41A;
-    color: white;
+    background-color: rgb(70, 216, 70);
+    border-color: rgb(70, 216, 70);
+    color: black;
     text-decoration: none;
 }
 .card
 {
     border-radius: 10px !important;
     border: black !important;
-    border-style: solid !important;
+    /* border-style: solid !important; */
     margin: 2% !important;
     width: 500px !important;
-    height: 500px !important;
+    /* height: 335px !important; */
 }
 img
 {
-    border-radius: 20px;
+    border-radius: 8px;
+    object-fit: fill;
 }
